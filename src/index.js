@@ -7,9 +7,9 @@ const PORT = 4000;
 
 app.use(express.json());
 app.use(cors({
-    origin: '*',
+    origin: 'https://abel-muro-web-developer.netlify.app',
     methods: ['POST'],
-    allowedHeaders: ['Content-Type', 'Authentication']
+    allowedHeaders: ['Content-Type']
 }))
 
 
